@@ -1,0 +1,42 @@
+body{
+    padding: 0 ;
+    margin: 0;
+    background-color: rgb(4, 17, 34);
+}
+.main_heading{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 300%;
+    color: rosybrown;
+}
+.card{
+    border: rgb(30, 43, 35);
+    border-style: dotted;
+    list-style: none;
+    width: 30%;
+    background-color: rgb(228, 246, 255);
+    margin: 1%;
+    padding: 1%;
+}
+.card :hover{
+    cursor: pointer;
+    color: violet;
+}
+.all_card{
+    display: flex;
+    padding: 0;
+}
+.card_body{
+    text-align: center;
+}
+.card_heading{
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(43, 67, 70);
+}
+.card_main{
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: teal;
+}
